@@ -209,7 +209,7 @@ void senddata()
 {
   Blynk.virtualWrite(1,volumen);// Wert an Blynk-Server übermitteln
   Blynk.run();// Blynk Housekeeping
-  Blynk.virtualWrite(2,humdity);// Wert an Blynk-Server übermitteln
+  Blynk.virtualWrite(2,humidity);// Wert an Blynk-Server übermitteln
   Blynk.run();// Blynk Housekeeping
   Blynk.virtualWrite(3,pressure);// Wert an Blynk-Server übermitteln
   Blynk.run();// Blynk Housekeeping
