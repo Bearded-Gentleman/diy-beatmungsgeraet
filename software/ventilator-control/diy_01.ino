@@ -14,7 +14,7 @@ int breathcycle = 0 ;
 int breathpause = 0 ;
 int speed = 0 ;
 bool start= false ;
-int humdity = 0 ;
+int humidity = 0 ;
 int volumen = 0 ;
 // Feather Adafruit Motor Shield v2 http:\www.adafruit.com/products/1438
 Adafruit_MotorShield AFMS = Adafruit_MotorShield(); // Treiber-Objekt
